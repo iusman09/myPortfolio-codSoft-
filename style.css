@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Mooli&family=Yanone+Kaffeesatz&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+
+    list-style: none;
+    margin: 0px 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+nav ul li a:hover {
+    color: rgb(127, 107, 146);
+
+}
+
+.left {
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0px;
+    align-items: center;
+}
+
+.firstSection div {
+    width: 30%;
+}
+
+
+
+.rightSection {
+    /* background-color: rebeccapurple; */
+}
+
+
+.rightSection img {
+    width: 100%;
+    margin: 50px 0px;
+}
+
+.rightSection img:hover{
+    
+    transform: rotate(10deg);
+   
+}
+
+h2{
+    overflow: hidden; /* Hide overflowing text */
+    white-space: nowrap; /* Prevent text from wrapping */
+    
+    animation: typewriter 1s steps(10) forwards; /* Adjust duration as needed */
+}
+
+@keyframes typewriter {
+    from {
+        width: 0; /* Start with an empty container */
+    }
+    to {
+        width: 32%; /* Fully reveal the text */
+    }
+}
+
+.leftSection {
+    /* margin: 60px 0px; */
+}
+
+.purple {
+    color: rgb(151, 77, 219);
+}
+
+.leftSection .btn {
+
+    margin: 20px 0px;
+    background-color: rgb(175, 121, 224);
+    border: 2px solid white;
+border-radius: 3px;
+    padding: 5px 15px;
+}
+
+.leftSection .btn a {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(34, 8, 59);
+
+}
+.leftSection .btn2 {
+
+margin: 20px 0px;
+background-color: rgb(175, 121, 224);
+border: 2px solid white;
+border-radius: 3px;
+    padding: 5px 15px;
+margin-left: 10px;
+}
+
+.leftSection .btn2 a {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(34, 8, 59);
+   
+
+}
+
+main hr{
+    border: 0px;
+    background-color: rgb(60, 55, 65);
+    margin: 30px 100px;
+    height: 1px;
+}
+
+/* secondSection  */
+
+.secondSection {
+    display: flex;
+    justify-content: space-around;
+}
+
+.secondLeftSection {
+    width: 40%;
+    
+}
+
+.secondLeftSection p {
+    padding: 10px 0px;
+}
+
+.picture{
+ 
+    width: 150px;
+    height: 100px;
+
+}
+.picture2{
+    width: 80px;
+}
+
+.secondRightSection {
+    width: 30%;
+}
+
+.secondRightSection p {
+    padding: 10px 0px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(18, 18, 62);
+}
+
+footer h2 {
+    font-family: 'Dancing Script', cursive;
+}
+
+footer ul li {
+    list-style: none;
+    text-decoration: none;
+}
+
+footer div {
+    padding: 10px;
+}
